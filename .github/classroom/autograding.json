@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Main Test",
+      "setup": "",
+      "run": "cd server && npm i && CI=true npm test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": null
+    }
+  ]
+}
