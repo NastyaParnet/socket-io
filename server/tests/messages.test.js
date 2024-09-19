@@ -1,4 +1,5 @@
 const Client = require("socket.io-client");
+require("dotenv").config({ path: './config.env' });
 
 jest.useRealTimers();
 
